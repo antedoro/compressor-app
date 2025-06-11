@@ -28,5 +28,13 @@
     "linux": {
       "icon": "build/icon.png"
     }
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antedoro/compressor-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/antedoro/compressor-app/issues"
+  },
+  "homepage": "https://github.com/antedoro/compressor-app#readme"
 }
