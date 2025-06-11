@@ -1,0 +1,32 @@
+{
+  "name": "compress-jpg",
+  "productName": "Compress JPG",
+  "version": "1.0.0",
+  "description": "A simple offline desktop image compressor.",
+  "author": "V.Antedoro",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "devDependencies": {
+    "electron": "^29.0.0",
+    "electron-builder": "^26.0.12"
+  },
+  "build": {
+    "appId": "com.antedoro.compressjpg",
+    "directories": {
+      "buildResources": "build"
+    },
+    "mac": {
+      "icon": "build/icon.icns",
+      "category": "public.app-category.graphics-design"
+    },
+    "win": {
+      "icon": "build/icon.ico"
+    },
+    "linux": {
+      "icon": "build/icon.png"
+    }
+  }
+}
