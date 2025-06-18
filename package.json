@@ -18,15 +18,11 @@
     "directories": {
       "buildResources": "build"
     },
-    "mac": {
-      "icon": "build/icon.icns",
-      "category": "public.app-category.graphics-design"
-    },
     "win": {
-      "icon": "build/icon.ico"
-    },
-    "linux": {
-      "icon": "build/icon.png"
+      "icon": "build/icon.ico",
+      "target": [
+        "nsis"
+      ]
     }
   },
   "repository": {
